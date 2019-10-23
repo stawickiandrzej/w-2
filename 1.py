@@ -9,4 +9,6 @@ while choice == 't':
     for i in range(1, len(zdanie)+1):
         print(zdanie[-i])
 
+    print(zdanie[::-1])
+
     choice = input("Czy chcesz podać odwrócić inne zdanie? (t/n)")
